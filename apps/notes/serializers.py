@@ -27,5 +27,5 @@ class NoteCreateSerializer(NoteSerializer):
 
 
 class NoteUpdateSerializer(NoteSerializer):
-    title = serializers.Charfield(required=False)
-    content = serializers.Charfield(required=False)
+    title = serializers.CharField(required=False)
+    content = serializers.CharField(required=False)
